@@ -22,13 +22,17 @@ PDF ──→ Document ──→ Chunk ──→ Embedding
 Note ─────────────────────────┘
         
 3. Parser PDF/MD
-4. Chunking
-5. Embedding BGE-M3
-6. FAISS
-7. BM25
-8. Entity extraction
-9. Relation extraction
-10. Knowledge Graph
-11. Hybrid Retrieval
-12. Reranker
-13. RAG + Qwen3
+     - tầng chịu trách nhiệm: nhận file đọc file - > text.txt
+   pip install pymupdf
+   python -m test.test_parser
+
+5. Chunking
+6. Embedding BGE-M3
+7. FAISS
+8. BM25
+9. Entity extraction
+10. Relation extraction
+11. Knowledge Graph
+12. Hybrid Retrieval
+13. Reranker
+14. RAG + Qwen3
