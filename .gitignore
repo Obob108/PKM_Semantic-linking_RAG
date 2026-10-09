@@ -1,0 +1,28 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated indexes
+backend/data/index/
+
+# Logs
+*.log
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
